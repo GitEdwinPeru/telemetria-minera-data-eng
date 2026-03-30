@@ -1,0 +1,12 @@
+# Entornos virtuales
+venv/
+.env
+
+# Datos locales (No subir miles de JSON)
+data_lake/bronze/*
+data_lake/silver/*
+data_lake/gold/*
+
+# Archivos de sistema
+__pycache__/
+.DS_Store
